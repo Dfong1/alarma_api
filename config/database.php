@@ -94,8 +94,8 @@ return [
         ],
         'mongodb'=> [
             'driver' => 'mongodb',
-            'dsn' => env('DB_DSN', 'mongodb://localhost:27017'),
-            'database'=>env('DB_MONGO')
+            'dsn' => env('DB_DSN', 'mongodb+srv://admin:Iyp8e5H4BALqmbNT@cluster0.ov7pzuh.mongodb.net/?retryWrites=true&w=majority'),
+            'database'=>env('DB_MONGO', 'alarmas_IoT')
         ],
 
     ],
